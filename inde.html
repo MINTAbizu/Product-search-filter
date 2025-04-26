@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Search-and-filter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header class="headercontainer">
+    <div class="headerinternal">
+
+      <div class="logo">
+        <img src="" alt="logo">
+
+      </div>
+
+      <div class="navlist">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Cloth-Shoes</a></li>
+          <li><a href="">Electronics</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Cars</a></li>
+          <li><a href="">Medical-Material</a></li>
+          <li><a href="">All</a></li>
+
+         
+        </ul>
+
+      </div>
+
+      <div class="registration">
+        <button>Login</button>
+        <button>Signup</button>
+
+      </div>
+
+      <div class="cart">
+        <h5>Cart</h5>
+
+      </div>
+      
+    </div>
+
+  </header>
+    
+  <div id="search">
+    <input type="text" id="searchinput" placeholder="search products">
+    <button type="submit">search</button>
+  </div>
+
+     
+    <div class="button">
+      <!-- <select name="" id="" class="button">
+
+
+        <option value="" class="button">
+          <button class=" " onclick="filterproduct('all')">all</button>
+        
+        </option>
+        <option value="" class="button">
+          <button class=" " onclick="filterproduct('men')">men</button>
+        
+        </option>
+        <option value="" class="button">
+          <button class="buttonvalue" onclick="filterproduct('women')">women</button>
+        
+        </option>
+        <option value="" class="button">
+          <button class="buttonvalue" onclick="filterproduct('child')">child</button>
+    
+        </option>
+
+        <option value="" class="button">
+          <button class="buttonvalue" onclick="filterproduct('boy')">boy</button>
+        </option >
+      </select> -->
+
+
+
+      
+        <button class=" " onclick="filterproduct('all')">all</button>
+        <button class=" " onclick="filterproduct('men')">men</button>
+        <button class="buttonvalue" onclick="filterproduct('women')">women</button>
+        <button class="buttonvalue" onclick="filterproduct('child')">child</button>
+        <button class="buttonvalue" onclick="filterproduct('boy')">boy</button>
+
+    </div>
+
+
+
+    <div id="products">
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
