@@ -1,0 +1,51 @@
+.error{
+    columns: red;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    #Register_form{
+        text-align: center;
+        justify-content: center;
+        background-color: #eeecec;
+    
+        width: 550px;
+        height: 400px;
+        margin: 50px;
+        margin-left: 250px;
+        border-radius: 10px;
+        border: solid orangered;
+    }
+    
+    .register {
+        margin:  15px;
+        border: 3px solid black;
+        border-radius: 5px;
+        width: 50%;
+        height: 40px;
+    
+    }
+    .titile{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400px;
+        /* padding: 14px; */
+    }
+    .btn{
+        background-color: aliceblue;
+        font-size: 22px;
+        
+        border-radius: 5px;
+    }
+    .btn:hover{
+        background-color: orange;
+        color: white;
+        border-radius: 5px solid white;
+    }
+    a{
+        text-decoration: none;
+    }
+    #Register_error{
+        color: red;
+        font-size: 18px;
+    }
