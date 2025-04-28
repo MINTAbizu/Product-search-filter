@@ -1,31 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    /* margin: 20px; */
     background-color: #dbd4d4;
 }
-img{
+/* img{
     width: 50%;
     object-fit: contain;
-}
+} */
 .headerinternal{
     display: flex;
     justify-content: space-between;
 }
 
 
-img{
+ img{
     width: 100%;
     padding: 0;
     margin: 0;
-}
+} 
 
 
 .carousel-container {
     position: relative;
     width: 100%;
-    background-color: #dbd4d4;
-    max-width: 1200px;
-    /* overflow: hidden; */
+    /* background-color: #dbd4d4; */
+    max-width: 1800px; 
+     overflow: hidden;
 }
 
 .carousel-slide {
@@ -38,7 +38,7 @@ img{
 }
 
 .carousel-slide img {
-    width: 800px;
+    width: 100%;
     height: 500px;
 }
 
