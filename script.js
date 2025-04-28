@@ -162,6 +162,11 @@ for (let i of products.data) {
     card.appendChild(pricecontainer);
 
     document.getElementById('products').appendChild(card);
+
+    let cart=document.createElement('div')
+     cart.classList.add('cart')
+     cart.innerHTML='<button>Add-To-Cart</button>'
+     card.appendChild(cart)
 }
 
 function filterproduct(value) {
@@ -227,9 +232,37 @@ window.onload = () => {
 }
 
 
+// carousel effect 
 
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentSlide = 0;
 
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.remove('active');
+            if (i === index) {
+                slide.classList.add('active');
+            }
+        });
+    }
 
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    function prevSlide() {
+        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    document.getElementById('next').addEventListener('click', nextSlide);
+    document.getElementById('prev').addEventListener('click', prevSlide);
+
+    // Auto-advance slides every 3 seconds
+    setInterval(nextSlide, 3000);
+});
 
 
 

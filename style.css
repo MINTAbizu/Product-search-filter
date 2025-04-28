@@ -7,6 +7,57 @@ img{
     width: 50%;
     object-fit: contain;
 }
+.headerinternal{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    background-color: #dbd4d4;
+    max-width: 1200px;
+    /* overflow: hidden; */
+}
+
+.carousel-slide {
+    display: none;
+    width: 100%;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.carousel-slide img {
+    width: 800px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 input {
     padding: 10px;
     width: 300px;
@@ -21,11 +72,11 @@ ul {
     padding: 0;
 }
 
-li {
+/* li {
     padding: 10px;
     border: 1px solid #ccc;
     margin-top: 5px;
-}
+} */
 
 .hidde{
     display: none;
